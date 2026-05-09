@@ -78,6 +78,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D691AB0B2FAFDC4C00A53C84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D69C10EC2FAF7BAC00EBA714 /* ChatMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D691AB0C2FAFDC5700A53C84 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D69C10EE2FAF7BD300EBA714 /* CloudKitChatManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D691AB0D2FAFDC6800A53C84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D69C10F02FAF7C1400EBA714 /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D691AB0E2FAFDC7500A53C84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D69C10C42FAF7B9000EBA714 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D69C10B62FAF7B9000EBA714 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +133,14 @@
 		D69C10C12FAF7B9000EBA714 /* SimpleChat */ = {
 			isa = PBXGroup;
 			children = (
+				D691AB0E2FAFDC7500A53C84 /* View */,
+				D691AB0D2FAFDC6800A53C84 /* ViewModel */,
+				D691AB0C2FAFDC5700A53C84 /* Service */,
+				D691AB0B2FAFDC4C00A53C84 /* Model */,
 				D69C10F22FAF7C6800EBA714 /* SimpleChat.entitlements */,
 				D69C10C22FAF7B9000EBA714 /* SimpleChatApp.swift */,
-				D69C10C42FAF7B9000EBA714 /* ContentView.swift */,
 				D69C10C62FAF7B9300EBA714 /* Assets.xcassets */,
 				D69C10C82FAF7B9300EBA714 /* Preview Content */,
-				D69C10EC2FAF7BAC00EBA714 /* ChatMessage.swift */,
-				D69C10EE2FAF7BD300EBA714 /* CloudKitChatManager.swift */,
-				D69C10F02FAF7C1400EBA714 /* ChatViewModel.swift */,
 			);
 			path = SimpleChat;
 			sourceTree = "<group>";
